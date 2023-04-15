@@ -1,0 +1,31 @@
+canvas {
+    background-color: #eee;
+    border: 1px solid black;
+}
+
+#gameOver {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0095DD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077CC;
+}
